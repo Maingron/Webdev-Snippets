@@ -3,3 +3,6 @@ Some are fixes, some are nice to haves, some are whatever. But if you need them,
 
 ### Feel free to contribute your snippets! Let's get our collections together!
 
+
+
+Collection started in January 2024 by Maingron.

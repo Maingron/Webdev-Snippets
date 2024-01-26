@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>001 Keyboard Height Scroll Overflow bug</title>
+		<link rel="stylesheet" type="text/css" href="style.min.css">
+		<meta name="theme-color" content="#319197">
+	</head>
+	<body>
+		<main>
+			main<br>
+			<input type="text">
+
+			<button onclick="document.querySelector('popup').classList.toggle('show'); document.body.classList.toggle('has_popup')">Toggle popup</button>
+			main Dolor<br>
+			main Sit<br>
+			main Amet<br>
+			main Consectetur<br>
+			main Adipiscing<br>
+			main Elit<br>
+			main Lorem<br>
+			main Ipsum<br>
+
+			main Goodbye.<br>
+
+		</main>
+
+
+
+		<div id="testheight">,</div>
+
+		<popup>
+			<header>
+
+				popup in teal<br>
+				Input in popup:<br>
+				<input type="text"><br>
+			</header>
+
+			<button onclick="document.querySelector('popup').classList.toggle('show'); document.body.classList.toggle('has_popup')">Toggle popup</button>
+			Lorem<br>
+			Ipsum<br>
+			Dolor<br>
+			Sit<br>
+			Amet<br>
+			Consectetur<br>
+			Adipiscing<br>
+			Elit<br>
+
+			Thank you.<br>
+
+		</popup>
+
+		<script src="scripts.js"></script>
+	</body>
+</html>
