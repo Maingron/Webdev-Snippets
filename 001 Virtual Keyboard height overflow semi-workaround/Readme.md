@@ -3,6 +3,7 @@ Meta:
 -	Type: Workaround for a not(?)-bug
 -	Device Type: Mobile (Android, iOS)
 -	Affected: "All" but Firefox
+-	**Still broken**: Safari (iOS)
 -	**Not** affected: Firefox Mobile, Desktop
 -	Date initial: 2024-01-26
 
